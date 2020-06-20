@@ -10,7 +10,7 @@ All User Stories include front end + back end work.
 
     b.  **Acceptance Criteria**: The entered user details are stored in
         the Database. The user does not have to login again unless the
-        app is re-installed. **Bonus**: Verify the user by sending a
+        app is re-installed. OP Time: <= 1 sec **Bonus**: Verify the user by sending a
         1-time SMS code. \[Outside of scope for MVP\]
 
     c.  **Dependencies**: API and Database modules.
@@ -37,7 +37,7 @@ All User Stories include front end + back end work.
         days \[X is configured as a server-side value\] and user's
         search radius. If no food trucks are found outside of the last X
         days user's cuisines, fall back to users' preferences, rating
-        and search radius. Search results must be displayed within 2 seconds.
+        and search radius.  OP Time: <= 2 secs.
 	 **Bonus**: Ability to expand the search
         radius if users preferred food truck is not in the initial list
         displayed. \[Outside of scope for MVP\]
@@ -66,10 +66,10 @@ All User Stories include front end + back end work.
 
     b.  **Acceptance Criteria**: User will be able to save preferred
         search radius, minimum star rating for food truck search,
-        preferred cuisines in a database. **Bonus**: User can assign
-        "ranking" to the cuisine preferences. The search result list
-        will be ordered by distance + preferred cuisine ranking.
-        \[Outside of scope for MVP\]
+        preferred cuisines in a database.  OP Time: <= 1 sec 
+	**Bonus**: User can assign "ranking" to the cuisine preferences. 
+        The search result list will be ordered by distance + preferred 
+	cuisine ranking. \[Outside of scope for MVP\]
 
     c.  **Dependencies**: API and Database modules.
 
@@ -91,7 +91,7 @@ All User Stories include front end + back end work.
 
     b.  **Acceptance Criteria**: User will be able to save the app
         rating and date on which he/she visited. This is stored in the
-        database and used by "Recommendation Service".
+        database and used by "Recommendation Service".  OP Time: <= 1 sec
 
     c.  **Dependencies**: API and Database modules.
 
@@ -130,7 +130,7 @@ All User Stories include front end + back end work.
         master DB into local DB
 
     b.  **Acceptance Criteria:** Only the changes values must be synced.
-        Deletes must be deleted on the local DB.
+        Deletes must be deleted on the local DB. OP Time: <= 1 Minute
 
     c.  **Dependencies:** User, Search and Recommendation services
 

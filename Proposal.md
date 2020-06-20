@@ -26,7 +26,8 @@ data will help the "Recommendation Service"\]. C) Users have their
 favorite cuisines saved in profile settings. D) Users register with the
 app using their phone number \[Phone number will be their unique
 Identifier\], E) The app must respond to the users "closest food truck"
-request within 2 seconds. F) Ordering food from mobile app is out of
+request within 2 seconds. F) All other operations must be completed in 1 second
+G) Ordering food from mobile app is out of
 scope for MVP.
 
 **Risks:** The project is dependent on data supplied by City of San
