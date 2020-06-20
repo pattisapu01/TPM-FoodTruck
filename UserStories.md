@@ -1,4 +1,4 @@
-**[Find food Trucks in San Francisco -- Core User Stories]{.underline}**
+# Find food Trucks in San Francisco -- Core User Stories
 
 All User Stories include front end + back end work.
 
