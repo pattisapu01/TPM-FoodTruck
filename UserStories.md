@@ -38,7 +38,8 @@ All User Stories include front end + back end work.
         days \[X is configured as a server-side value\] and user's
         search radius. If no food trucks are found outside of the last X
         days user's cuisines, fall back to users' preferences, rating
-        and search radius. **Bonus**: Ability to expand the search
+        and search radius. Search results must be displayed within 2 seconds.
+	 **Bonus**: Ability to expand the search
         radius if users preferred food truck is not in the initial list
         displayed. \[Outside of scope for MVP\]
 
