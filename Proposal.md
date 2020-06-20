@@ -1,4 +1,4 @@
-# Find food Trucks in San Francisco -- Project Proposal__**
+# Find food Trucks in San Francisco -- Project Proposal
 
 **Scope**: The project proposal is for the creation of a mobile app that
 finds various food truck operators belonging to different cuisines
