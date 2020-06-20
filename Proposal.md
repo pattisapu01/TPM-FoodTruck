@@ -58,8 +58,10 @@ set.
 
 **Timelines:** The project will take 4 weeks to complete. 2 weeks for
 Backend \[Including Scheduled Job\], 1 week for front end and 1 week for
-testing. Front end and backend can start in parallel. Backend can use
-mock data to simulate calls from front end.
+testing. Front end and backend can start in parallel. Front end can use
+mock data to simulate calls to back end until back end is ready. Added 1 
+week extra for integration between fromt end and backend and bug fixes
+in the QA cycle.
 
 **Resources:** This project requires 3 resources. 1 Front end Engineer
 experienced in iOS and Android, 1 middle tier \[REST API\] and DB
