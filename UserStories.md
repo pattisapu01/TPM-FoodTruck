@@ -20,8 +20,7 @@ All User Stories include front end + back end work.
     e.  **Sub-Tasks:**
 
         i.  **Front End:** Registration UI for iOS and Android phones
-            and validation of phone number \[Just regex for version
-            MVP\]
+            and validation of phone number \[Just regex validation for MVP\]
 
         ii. **API**: Interaction with User Service to "register" the
             user.
@@ -114,7 +113,7 @@ All User Stories include front end + back end work.
 
     a.  **Technical Change:** Allow secure sessions \[STS/token
         service\] so that only authorized users are allowed to call the
-        API.
+        API. Also, API layer must hosted on SSL
 
     b.  **Acceptance Criteria:** Users with an invalid or missing token
         will not be allowed to call the API layer.
