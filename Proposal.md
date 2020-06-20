@@ -1,4 +1,4 @@
-**[Find food Trucks in San Francisco -- Project Proposal]{.underline}**
+__**Find food Trucks in San Francisco -- Project Proposal__**
 
 **Scope**: The project proposal is for the creation of a mobile app that
 finds various food truck operators belonging to different cuisines
@@ -7,10 +7,9 @@ within a certain radius of the user's location. The app must suggest
 the user has eaten previously and give recommendations "outside" of the
 recently eaten places but within the user's cuisine preferences.
 
-**Deliverables:** A mobile application that talks to City Of San
-Francisco's API \[or our own API that downloads the data from SF's DB to
-our own DB periodically\] to fetch Food Truck operators that are closet
-to the user's location. The "Recommendation Engine" must take into
+**Deliverables:** A mobile application that talks to API layer to fetch 
+Food Truck operators that are closet to the user's location. 
+The "Recommendation Engine" must take into
 account the recent ordered \[Past X Days\] food trucks and try to filter
 them out so that "new" food trucks can be recommended. Another criterion
 is "Food Truck" rating. Food truck search radius, cuisine preferences,
