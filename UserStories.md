@@ -135,3 +135,6 @@ All User Stories include front end + back end work.
     c.  **Dependencies:** User, Search and Recommendation services
 
     d.  **Priority:** Critical.
+
+
+**Note: I would alos link the "Test Cases" to the User Stories.**
