@@ -137,4 +137,4 @@ All User Stories include front end + back end work.
     d.  **Priority:** Critical.
 
 
-**Note: I would alos link the "Test Cases" to the User Stories.**
+**Note: I would also link the "Test Cases" to the User Stories.**
