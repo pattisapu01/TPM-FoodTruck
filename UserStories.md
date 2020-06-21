@@ -122,7 +122,7 @@ All User Stories include front end + back end work.
 
     d.  **Priority:** Critical
 
-6)  **Backend Job:** Maintain the San Francisco in a DB and sync with
+6)  **Backend Job:** Maintain the San Francisco city data in a DB and sync with
     master DB \[from City of SFO\] every night updating only the changed
     values.
 
